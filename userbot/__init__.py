@@ -231,8 +231,7 @@ DEVG = [
 DEVS = [
     1826643972,  # rama
     5155140917,  # vicky
-    844432220,  # risman
-    5061523020, #izzy
+    5047682454, # ical
 ]
 
 # Blacklist User for use RAM-UBOT
