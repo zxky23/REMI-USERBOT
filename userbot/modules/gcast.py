@@ -25,7 +25,9 @@ GCAST_BLACKLIST = [
     -1001462425381,  # GRUP GUA
     -1001369629503,  # its
     -1001267233272,  # POCONG SEREM
-    -1001692751821,  # ramsupportt
+    -1001302879778,  # karman
+    -1001705349543, # KyuraSupport2
+    -1001489233533, # kitaro
 ]
 
 # BLACKLIST NYA JANGAN DI HAPUS NGENTOD.
@@ -39,8 +41,8 @@ async def gcast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        return await edit_delete(event, "**Anak ngentot, kalo males ngasih teks, MINIMAL REPLY ANJING!!**")
-    kk = await edit_or_reply(event, "`Limit jangan salain gua tod, Lg gua kirim ni....`")
+        return await edit_delete(event, "Anak ngentot, kalo males ngasih teks, MINIMAL REPLY ANJING!!")
+    kk = await edit_or_reply(event, "Limit jangan salain gua tod, Lg gua kirim ni....")
     er = 0
     done = 0
     user = await bot.get_me()
@@ -59,7 +61,7 @@ async def gcast(event):
                 except BaseException:
                     er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+        f"Berhasil Mengirim Pesan Ke {done} Grup, Gagal Mengirim Pesan Ke {er} Grup"
     )
 
 
@@ -72,8 +74,8 @@ async def gucast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        return await edit_delete(event, "**anak ngentot, Kalo males ngasih teks, MINIMAL REPLY ANJING!!!**")
-    kk = await edit_or_reply(event, "` sedang mengirim pesan siaran ke beberapa chat pribadi....`")
+        return await edit_delete(event, "anak ngentot, Kalo males ngasih teks, MINIMAL REPLY ANJING!!!")
+    kk = await edit_or_reply(event, " sedang mengirim pesan siaran ke beberapa chat pribadi....")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -91,17 +93,17 @@ async def gucast(event):
                 except BaseException:
                     er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **chat, Gagal Mengirim Pesan Ke** `{er}` **chat**"
+        f"Berhasil Mengirim Pesan Ke {done} chat, Gagal Mengirim Pesan Ke {er} chat"
     )
 
 CMD_HELP.update(
     {
-        "gcast": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}gcast`\
+        "gcast": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: {cmd}gcast\
          \n↳ : Mengirim Pesan Group Secara Global."})
 
 CMD_HELP.update(
     {
-         "gucast": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}gucast`\
+         "gucast": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: {cmd}gucast\
          \n↳ : Mengirim Pesan Pribadi Secara Global."
     }
 )
