@@ -1,7 +1,7 @@
 {
   "name": "REMI-USERBOT",
   "description": "[REMI-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg",
+  "logo": "https://telegra.ph/file/baf8e6977a8fb40cb095e.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ramadhani892/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
+  "repository": "https://github.com/dikyarya/REMI-USERBOT",
+  "telegram": "https://t.me/camatoke",
   "success_url": "https://t.me/ootspambott",
   "stack": "container",
   "env": {
