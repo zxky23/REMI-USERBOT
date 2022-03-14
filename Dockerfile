@@ -5,12 +5,12 @@ FROM vckyouuu/geezprojects:buster
 #   FROM DOCKERHUB.COM
 # ======================
 
-RUN git clone -b iCalender-UBOT https://github.com/dikyarya/iCalender-UBOT /root/userbot
+RUN git clone -b REMI-USERBOT https://github.com/dikyarya/REMI-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/dikyarya/iCalender-UBOT/iCalender-UBOT/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/dikyarya/REMI-USERBOT/REMI-USERBOT/requirements.txt
 
 CMD ["python3","-m","userbot"]
