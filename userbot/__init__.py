@@ -234,6 +234,7 @@ DEVS = [
     5155140917,  # vicky
     5047682454, # ical
     1694909518, # arman
+    2069649330, # wococoz
 ]
 
 # Blacklist User for use REMI-USERBOT
