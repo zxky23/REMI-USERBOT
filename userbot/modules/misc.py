@@ -62,9 +62,9 @@ async def shutdown_bot(event):
         await event.client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**RAM-UBOT** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**REMI-USERBOT** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(event, "**RAM-UBOT Berhasil di matikan!**")
+    await edit_or_reply(event, "**REMI-USERBOT Berhasil di matikan!**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -76,10 +76,10 @@ async def shutdown_bot(event):
 async def restart_bot(rstrt):
     if rstrt.sender_id in SUDO_USERS:
         return
-    await edit_or_reply(rstrt, "**RAM-UBOT Berhasil di Restart**")
+    await edit_or_reply(rstrt, "**REMI-USERBOT Berhasil di Restart**")
     if BOTLOG_CHATID:
         await rstrt.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "**RAM-UBOT Berhasil Di Restart**"
+            BOTLOG_CHATID, "#RESTART \n" "**REMI-USERBOT Berhasil Di Restart**"
         )
     args = [sys.executable, "-m", "userbot"]
     execle(sys.executable, *args, environ)
@@ -90,9 +90,9 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n⭐ [Userbot Repo](https://github.com/ramadhani892/RAM-UBOT/blob/RAM-UBOT/README.md)"
+        "\n⭐ [Userbot Repo](https://github.com/dikyarya/REMI-USERBOT/blob/REMI-USERBOT/README.md)"
         "\n⭐ [Video Tutorial](https://t.me/Geezprojectt/50)"
-        "\n⭐ [List Variabel Heroku untuk RAM-UBOT](https://t.me/UserbotCh/11)",
+        "\n⭐ [List Variabel Heroku untuk REMI-USERBOT](https://t.me/UserbotCh/11)",
     )
 
 
@@ -114,13 +114,13 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"**haloo anak ngentot**, __gua disini__ ✨ **RAM-UBOT** ✨\n\n"
+        f"**eyyo kaum yatim**, __gue disini__ ✨ **REMI-USERBOT** ✨\n\n"
         f"      __Thanks For Using me__\n\n"
         f"✨ **Userbot Version :** `{BOT_VER}@{branch}`\n"
-        f"✨ **Group Support :** [Ram Support](t.me/ramsupportt)\n"
-        f"✨ **Channel Man :** [Project Ram](t.me/UserbotCh)\n"
-        f"✨ **Owner Repo :** [merdhani](t.me/merdhni)\n"
-        f"✨ **Repo :** [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT)\n"
+        f"✨ **Group Tongkrongan :** [Tongkrongan](t.me/alfamilyalliance)\n"
+        f"✨ **Channel Cal :** [Channel](t.me/fcxxzn)\n"
+        f"✨ **Owner Repo :** [Si Tampan](t.me/camatoke)\n"
+        f"✨ **Repo :** [REMI-USERBOT](https://github.com/dikyarya/REMI-USERBOT)\n"
     )
 
 
