@@ -112,33 +112,33 @@ async def typewriter(typew):
     await typew.edit("`-TAMAT-`")
 
 
-@register(outgoing=True, pattern="^.gabut$")
+@register(outgoing=True, pattern="^.jasmine$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`Kawan kawan Aku mau cerita sedikit`")
+        await e.edit("`Woi ngentot cantik banget jasmine hari ini😱😱`")
         sleep(1)
-        await e.edit("`Jadi Hari ini Aku lagi stressss anjing `")
+        await e.edit("`Gila cantik banget ya allah>.< `")
         sleep(1)
-        await e.edit("`GARA GARA GUA LIAT GRUP RAME`")
+        await e.edit("`Pacar siapa sih ini aarrghh>.<`")
         sleep(1)
-        await e.edit("`GILIRAN GUA NGETIK SEKETIKA SEPI`")
+        await e.edit("`AAAAA CBL CBL CBL❣️❣️`")
         sleep(1)
-        await e.edit("`ANJING BANGET KAN YA`")
+        await e.edit("`CANTIK BANGET LOCHH💛💞💖`")
         sleep(1)
-        await e.edit("`PADAHAL PAS GUA BLM DTG RAME BGT`")
+        await e.edit("`Tolong.!!! cantik nya jasmine kelewatan>.<`")
         sleep(1)
-        await e.edit("`PAS GUA MUNCUL SEPI BGT`")
+        await e.edit("`KU BISA GILA KARNA JASMINE TERLALU CANTIK😱😱`")
         sleep(1)
-        await e.edit("`ADA RASA INGIN KELUAR`")
+        await e.edit("`KALIAN GABOLEH AMBIL JASMINE DARIKU 😡😡`")
         sleep(1)
-        await e.edit("`TAPI KALIAN TEMAN AKU`")
+        await e.edit("`Kalau diambil nanti aku sedih:'(`")
         sleep(1)
         await e.edit("🥺")
         await e.edit("😭")
         await e.edit("😔")
         await e.edit("😖")
-        await e.edit("`TAI BANGET POKOK NYA`")
-        await e.edit("💩")
+        await e.edit("`POKOKNYA GABOLEH DI AMBIL😡`")
+        await e.edit("💖")
         await e.edit("...........................🚐")
         await e.edit("..........................🚐.")
         await e.edit("..............🛺.........🚐..")
@@ -211,10 +211,10 @@ async def koc(e):
         await e.edit("...........🚐.🕌............")
         await e.edit("............🚐🕌............")
         await e.edit("CERITANYA LAGI SHOLAT")
-        await e.edit("KARNA SI UDIN TIDAK MAU CELAKA")
-        await e.edit("SUNGGUH BERMANFAAT YAH GABUT NYA")
-        await e.edit("KATA SI UDIN")
-        await e.edit("SHOLAT LAH SEBELUM KAU DI SHOLATKAN")
+        await e.edit("KARNA PENGEN JADI IMAM YANG BAIK BUAT JASMINE💞")
+        await e.edit("KALAU LUPA SHOLAT NNT CALON MERTUA MARAH")
+        await e.edit("KATA GANTENG NYA JASMINE")
+        await e.edit("OTW LAGI KERUMAH JASMINE")
         await e.edit("ᴬᴸᴴᴬᴹᴰᵁᴸᴵᴸᴸᴬᴴ ᴰᴴ ᴷᴱᴸᴬᴿ🚐🕌.............")
         await e.edit("ᴮᴵˢᴹᴵᴸᴸᴬᴴ..........🚐.🕌.............")
         await e.edit("...............🚐..🕌.............")
@@ -374,8 +374,8 @@ async def koc(e):
         await e.edit("🚶                             🐢")
         await e.edit("🚶                              🐢")
         await e.edit("🚶                               🐢")
-        await e.edit("🚶                                🐢")
-        await e.edit("`NGAPAIN DI LIAT?😒😡`")
+        await e.edit("🏡🚶                              🐢")
+        await e.edit("`DAH SAMPAU DIRUMAH AYANG JASMINE💞💖🧡💛❣️❤️`")
 
 
 @register(outgoing=True, pattern="^.mf$")
@@ -465,7 +465,7 @@ async def typewriter(typew):
     
 CMD_HELP.update({
     "memes9":
-    "`.gabut` ; `.orgil`\
+    "`.jasmine` ; `.orgil`\
     \nUsage: ntahlah gabut doang.\
     \n\n`.ass`\
     \nUsage: Salam duls biar sopan."
