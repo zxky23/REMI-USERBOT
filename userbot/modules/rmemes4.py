@@ -83,7 +83,7 @@ async def typewriter(typew):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ HALO ANAK YATIM,AKU DATANG :) \n"
+                     "╬═╬ HALO AKU DATANG BUAT NGAJAK CALL AYANG JASMINE :) \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
@@ -102,7 +102,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.bundir(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`DIDUGA BUNDIR KARNA DI GHOSTING...`          \n　　　　　|"
+    await typew.edit("`DIDUGA BUNDIR KARNA GA DI SUN SAMA AYANG JASMINE..`          \n　　　　　|"
                      "\n　　　　　| \n"
                      "　　　　　| \n"
                      "　　　　　| \n"
