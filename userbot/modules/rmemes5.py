@@ -5,10 +5,10 @@ from telethon import events
 import asyncio
 
 
-@register(outgoing=True, pattern="^.sange$")
+@register(outgoing=True, pattern="^.jsmn$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("SAYANGGGGGGGGG 💕")
+        await e.edit("JASMIIIIIIIIIIIIIINNNN.!!!")
         sleep(1)
         await e.edit("💝💘💓💗")
         sleep(1)
@@ -27,31 +27,31 @@ async def koc(e):
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
         await e.edit("💘💞💕💗")
-        await e.edit("SAYANG")
+        await e.edit("ICAL")
         sleep(1)
-        await e.edit("AKU 👉👈")
+        await e.edit("SAYANG :')")
         sleep(1)
-        await e.edit("SANGE 👉👈 😘😘")
+        await e.edit("JASMINE❣️❣️")
         sleep(1)
         await e.edit("💘💘💘💘")
         sleep(1)
-        await e.edit("SAYANG")
+        await e.edit("ELEPYUU JAMIIIINN💞💞")
         sleep(1)
-        await e.edit("AYO NGEWE🤭🤭")
+        await e.edit("POKOKNYA ELEPYU PULL TU DE MUN TU DE MES❣️❣️")
         sleep(1)
-        await e.edit("PLISS🥺🥺")
+        await e.edit("JASMIN CANTIK❣️")
         sleep(1)
-        await e.edit("AKU SANGE😋😋")
+        await e.edit("TAPI KADANG SUKA KEK KONTOL")
         sleep(1)
-        await e.edit("I LOVE YOUUUU")
+        await e.edit("SIPALING LAMA KALAU BALES CHAT")
         sleep(1)
-        await e.edit("AH AH AH BEIBB")
+        await e.edit("SIPALING BUDEG KALAU LAGI CALL")
         sleep(1)
-        await e.edit("💦💦💦💦")
+        await e.edit("SIPALING RANDOM KALAU LAGI TYPING")
         sleep(1)
-        await e.edit("OH BABY")
+        await e.edit("TAPI INTINYA....")
         sleep(1)
-        await e.edit("AKU SAYANG KAMU💞")
+        await e.edit("ICAL SAYANG JASMINE💞")
 
 
 @register(outgoing=True, pattern='^.orgil(?: |$)(.*)')
@@ -475,6 +475,6 @@ CMD_HELP.update({
     "memes10":
     "`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
-    \n\n`.sange` ;  `.gblk`\
+    \n\n`.jsmn` ;  `.gblk`\
     \nUsage: cobalah sndiri ngentot."
 })
