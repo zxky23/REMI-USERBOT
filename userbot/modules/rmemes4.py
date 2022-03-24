@@ -338,27 +338,27 @@ async def typewriter(typew):
     await typew.edit("`Pengguna berhasil di Global mute...!`")
 
 
-@register(outgoing=True, pattern='^.tolol(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sicantik(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`TOLOL...`")
+    await typew.edit("`PERNYATAAN MUTLAK DARI DUNIA!!!`")
     sleep(2)
-    await typew.edit("`Pertama Kamu tolol....`")
+    await typew.edit("`Bahwa jj lah yang paling cantik....`")
     sleep(1)
-    await typew.edit("`Kedua Kamu memang tolol...`")
+    await typew.edit("`JJ lah yang paling manis...`")
     sleep(1)
-    await typew.edit("`Ketiga Kamu benar benar tolol..`")
+    await typew.edit("`JJ lah yang paling imut..`")
     sleep(1)
-    await typew.edit("`Dan kamu di lahirkan Dalam keadaan tolol...`")
+    await typew.edit("`JJ lah yang paling TOLOL...`")
     sleep(1)
-    await typew.edit("`Dasar kamu anak TOLOL...`")
+    await typew.edit("`Pokoknya mah jj yang paling cantik...`")
     sleep(1)
-    await typew.edit("`T`")
-    await typew.edit("`TO`")
-    await typew.edit("`TOL`")
-    await typew.edit("`TOLO`")
-    await typew.edit("`TOLOL`")
-    await typew.edit("`TOLOL!!!!`")
+    await typew.edit("`C`")
+    await typew.edit("`CA`")
+    await typew.edit("`CAN`")
+    await typew.edit("`CANT`")
+    await typew.edit("`CANTI`")
+    await typew.edit("`CANTIK!!!✨✨`")
 
 
 @register(outgoing=True, pattern='^.uasu(?: |$)(.*)')
@@ -416,7 +416,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "memes7":
-    "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
+    "`.bulan` ; `.hati` ; `.gbn` ; `.sicantik` ; `.gmt`\
     \nUsage: liat aja.\
     \n\n`.heli` ; `.tank` ; `.tembak`\n`.bundir`\
     \nUsage: liat sendiri."
