@@ -445,22 +445,22 @@ async def typewriter(typew):
     await typew.edit("**YANG GA JAWAB, FIX ATHEISS!!**")
    # Create by myself @ram-ubot
 
-@register(outgoing=True, pattern='^.gblk(?: |$)(.*)')
+@register(outgoing=True, pattern='^.jj(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("WOI GOBLOK!!!")
+    await typew.edit("WOI NGENTOT!!!")
     sleep(2)
-    await typew.edit("KOK LU GOBLOK BANGET SIH ANJING")
+    await typew.edit("TAU GA SIAPA CEWE YANG PALING CANTIK??")
     sleep(2)
-    await typew.edit("UDAH DI SIA SIA IN, DAN GA DI ANGGAP")
+    await typew.edit("YAUDAH PASTI JJ LAH GILA LO")
     sleep(2)
-    await typew.edit("MASIH AJA LU PERTAHANIN, GOBLOK!!!!")
+    await typew.edit("JJ SI PALING CANTIK")
     sleep(2)
-    await typew.edit("UDAH LAH ANJING,GAOSAH KAYA GTU")
+    await typew.edit("JJ SI PALING MANIS")
     sleep(2)
-    await typew.edit("JAUHIN AJA AJG, BOCAH KYA DIA MAH")
+    await typew.edit("JJ SIPALING PALING✨✨")
     sleep(2)
-    await typew.edit("TINGGALIN AJA YA AJG!!!!")
+    await typew.edit("POKOKNYA YANG PALING CANTIK TU JJ YA ANJING.!!!")
     
     
 CMD_HELP.update({
@@ -475,6 +475,6 @@ CMD_HELP.update({
     "memes10":
     "`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
-    \n\n`.jsmn` ;  `.gblk`\
+    \n\n`.jsmn` ;  `.jj`\
     \nUsage: cobalah sndiri ngentot."
 })
