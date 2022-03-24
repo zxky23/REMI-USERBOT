@@ -71,7 +71,7 @@ async def koc(e):
         await e.edit("༼ TAPI BOONG TOD!!༽")
 
 
-@register(outgoing=True, pattern='^.jamin(?: |$)(.*)')
+@register(outgoing=True, pattern='^.jeje(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
@@ -80,11 +80,11 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n/>💔  *E GAK JADI DEH,NANTI AYANG JASMINE NGAMBEK`")
+                     "`\n/>💔  *E GAK JADI DEH, INI GA JADI BUAT KAMU!!`")
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💔<\\  *KU TAK MAW AYANGG JASMINE MARAH❣️`")
+                     "`\n💔<\\  *INI CUMA BUAT JJ DAN HANYA JJ❣️`")
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
@@ -168,7 +168,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`\n(\\_/)`"
                      "`\n(●_●)`"
-                     "`\n💖<\\  *Eits nda boleh, ini punya ayang jasmine`")
+                     "`\n💖<\\  *Eits nda boleh, ini punya jj`")
 # Alpinnnn Gans
 
 
@@ -205,7 +205,7 @@ async def _(event):
 
 CMD_HELP.update({
     "memes5":
-    "`.nah` ; `.jamin` ; `.owner`\
+    "`.nah` ; `.jeje` ; `.owner`\
     \nUsage: cobain.\
     \n\n`.bunga` ; `.buah`\
     \nUsage: animasi.\
