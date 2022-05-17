@@ -219,7 +219,7 @@ DEVG = [
     5155140917, #vicky
     2030977988, #jasmine
     2069649330, #coco
-    1694909518, #arman
+    5229011483, #ky
 ]
 
 # DEVS only own id
@@ -228,7 +228,7 @@ DEVS = [
     2030977988,  # jasmine
     5047682454, # ical
     1694909518, # arman
-    2069649330, # wococoz
+    5229011483, # ky
 ]
 
 # Blacklist User for use REMI-USERBOT
